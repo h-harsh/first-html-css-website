@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+.nav_bar{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    margin-top: 0px;
+    height: 70px;
+    width: 100%;
+    background-color: #2d2d2e;
+    color: white; 
+    display: flex;
+    justify-content: space-between;
+}
+.item_right{
+    margin-right: 120px;
+    padding: 20px 0;
+}  
+.item_left p{
+    font-family: cursive;
+    padding-left: 180px;     
+    font-size: 22px;
+    padding-top: 12px;
+}
+.item_right p{
+    color: white;
+    float right;
+    display: inline;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.item_right .extra{
+    border: 2px solid yellow;
+    border-radius: 25px;
+    padding: 8px;
+}
+@media only screen and (max-width:600px){
+    .nav_bar{
+    justify-content: center;
+    margin: 0px;
+    }
+    .item_right, .item_left{
+        margin: 0px;
+        padding: 0px;
+    }
+    .item_left p{
+        margin: 0px;
+        padding: 0px;
+    }
+    
+}
+/*//////////////////////////////////////////////////////////////////////////////*/
+
+.pic_intro{
+    background-image: url("./pic.jpg");
+    background-size: cover;
+    background-repeat: no-repeat
+    margin: 0;
+    height: 1000px;
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+}
+.pic_intro .texts{
+    color: white;
+    display: inline-block;
+    padding-left: 100px;
+    font-size: 30px;
+    width: 60%;
+}
+span{
+    color: yellow;
+}
+
+@media only screen and (max-width:600px){
+    .pic_intro          {
+background-image: url("./nprofile.jpg");
+width: 100%;
+    }
+}
+
+
+
+
+
+/*////////////////////////////////////////////////*/
+.text_intro{
+    background-color: #242424;
+    height: 350px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    line-height: 80px;
+    font-size: 30px;
+    
+}
+.intext_intro{
+    padding: 60px 0;
+}
+.onez{
+    color: yellow;
+    font-family: monospace;
+}
+/*////////////////////////////////////////////*/
+.bsttext{
+    width: 100%;
+    text-align: center; 
+    margin-top: 50px;
+    line-height: 60px;
+}
+.bsttext h3{
+    font-size: 50px;
+   padding: 0 100px;
+   font-weight: lighter;
+}
+.bsttext p{
+    font-size: 30px;
+}
+.bstcontent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+}
+.contentitem{
+   max-height: 500pxx;
+   max-width:  400px;
+   padding: 50px 100px;
+   box-sizing: border-box;
+   text-align: center;
+}
+.ah4{
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+.ap1{
+    font-size: 20px;
+}
+.contentitem:hover{
+    border: 2px solid yellow;
+    border-radius: 10%;
+    box-shadow: 5px 5px black;
+}
+/*//////////////////////////////////////////////////*/
+.projects{
+    background-color: #242424;
+    color: white;
+    font-family: cursive;
+}
+.previmage img{
+    height: 223px;
+    width: 387px;
+}
+.project{
+    display: flex;
+    justify-content: center;
+}
+.previmage{
+    width: 50%;
+    padding-left: 200px;
+    
+}
+.prevtext{
+    width: 50%;
+    padding-right: 80px;
+    line-height: 30px;
+    text-align: center;
+}
+.projectscontent{
+    padding-top: 80px;
+}
+.work{
+    margin-left: 30%;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 35px;
+}
+.prevbtn{
+    margin-top: 40px;
+    font-size: 20px;
+    border: 2px solid yellow;
+    display: inline-block;
+    border-radius: 10%;
+    padding: 5px;
+}
+.prevbtn:hover{
+    background-color: skyblue;
+    transition: 1s;
+}
+/*////////////////////////////////////////////////*/
+.contact{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.last{
+    text-align: center;
+    font-size: 35px;
+    line-height: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 1px solid wheat;
+    border-radius: 20px;
+    padding: 20px;
+  
+}
+.last:hover{
+ box-shadow: 5px 5px 5px 5px gray;
+ transition: 1s;
+}
+.last p{
+    font-size: 28px;
+}
+.icon{
+    display: inline-flex;
+    
+}
+.icon i{
+    margin-left: 25px;
+}
+/*////////////////////////////////////////////////*/
+.byesec{
+    background-color: #242424;
+    height: 240px;
+    color: honeydew;
+    text-align: center;
+}
+.bye{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 80px;
+    line-height: 50px;
+    font-size: 20px;
+}
+.bye a{
+    font-weight: bolder;
+    color: yellow;
+}
